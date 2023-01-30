@@ -239,3 +239,34 @@ header {
     border: 1px solid white;
   }
 }
+
+.my_single_wrap {
+  width: 55%;
+
+  h1 {
+    color: #0b60b6;
+    font-size: 1.2rem;
+  }
+
+  .green_bar {
+    background-color: #46b146;
+    height: 30px;
+    color: white;
+    font-size: 0.7rem;
+
+    .col-8 {
+      border-right: 1px solid #202020;
+    }
+  }
+
+  p {
+    font-size: 0.7rem;
+  }
+}
+
+.col-4 {
+  img {
+    width: 200px;
+    height: 200px;
+  }
+}
