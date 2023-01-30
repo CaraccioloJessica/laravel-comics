@@ -6,6 +6,6 @@ Route::get('/', function () {
   return view('comics');
 });
 
-Route::get('/', function () {
+Route::get('/single', function () {
   return view('single');
 });
