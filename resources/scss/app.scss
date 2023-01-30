@@ -64,17 +64,21 @@ section {
       height: 120px;
       margin: 20px 10px;
 
-      img {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        object-position: top;
-      }
+      a {
+        text-decoration: none;
 
-      h3 {
-        color: #fff;
-        font-size: 0.6rem;
-        margin-top: 10px;
+        img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+          object-position: top;
+        }
+
+        h3 {
+          color: #fff;
+          font-size: 0.6rem;
+          margin-top: 10px;
+        }
       }
     }
   }
@@ -90,6 +94,7 @@ section {
 
     a {
       color: #fff;
+      text-decoration: none;
     }
   }
 }
