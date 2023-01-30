@@ -262,11 +262,37 @@ header {
   p {
     font-size: 0.7rem;
   }
+
+  .col-4 {
+    h6 {
+      font-size: 0.7rem;
+    }
+
+    img {
+      width: 180px;
+      height: 150px;
+    }
+  }
 }
 
-.col-4 {
-  img {
-    width: 200px;
-    height: 200px;
+// sezione sotto
+.my_gray_bg {
+  background-color: #e9e9e9;
+
+  .container {
+    width: 57%;
+
+    h4 {
+      border-bottom: 1px solid #bdbdbd;
+      padding-bottom: 20px;
+      color: #0b60b6;
+    }
+
+    span {
+      border-bottom: 1px solid #bdbdbd;
+      padding: 5px 0;
+      font-size: 0.7rem;
+      color: #486583;
+    }
   }
 }

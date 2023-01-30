@@ -38,8 +38,61 @@
         </div>
 
         <div class="col-4">
-          <h7>ADVERTISEMENT</h7>
-          <img src="{{ Vite::asset('resources/img/adv.jpg')}}">
+          <h6>ADVERTISEMENT</h6>
+          <div>
+            <img src="{{Vite::asset('resources/img/adv.jpg')}}">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="my_gray_bg">
+      <div class="container d-flex justify-content-between pb-4 pt-5">
+        <div class="col-5">
+          <h4 class="m-0">Titolo</h4>
+          <div class="d-flex">
+            <span class="col-4">
+              Art by:
+            </span>
+            <span class="col-8">           
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tenetur officia itaque molestiae nobis.
+          </div>
+          <div class="d-flex">
+            <span class="col-4">
+              Art by:
+            </span>
+            <span class="col-8">           
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis a expedita distinctio tempore officiis veritatis.
+            </span>
+          </div>
+        </div>
+
+        <div class="col-5">
+          <h4 class="m-0">Titolo</h4>
+          <div class="d-flex">
+            <span class="col-4">
+              Series:
+            </span>
+            <span class="col-8">           
+              Lorem ipsum
+            </span>
+          </div>
+          <div class="d-flex">
+            <span class="col-4">
+              Series:
+            </span>
+            <span class="col-8">           
+              Lorem ipsum sit
+            </span>
+          </div>
+          <div class="d-flex">
+            <span class="col-4">
+              Series:
+            </span>
+            <span class="col-8">           
+              Lorem ipsum ipsum
+            </span>
+          </div>
         </div>
       </div>
     </section>
