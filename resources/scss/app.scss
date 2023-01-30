@@ -105,11 +105,11 @@ section {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    width: 70%;
 
     .buy_info {
       display: flex;
       align-items: center;
-      padding: 10px;
 
       img {
         height: 40px;
