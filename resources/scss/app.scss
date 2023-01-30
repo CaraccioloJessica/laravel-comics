@@ -224,3 +224,18 @@ header {
     }
   }
 }
+
+// seconda pagina
+.mini_blue {
+  background-color: #0C7CEC;
+  height: 70px;
+  position: relative;
+
+  img {
+    position: absolute;
+    bottom: 20px;
+    left: 300px;
+    height: 200px;
+    border: 1px solid white;
+  }
+}
