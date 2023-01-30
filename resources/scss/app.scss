@@ -277,7 +277,8 @@ header {
 
 // sezione sotto
 .my_gray_bg {
-  background-color: #e9e9e9;
+  background-color: #f7f6f1;
+  padding-bottom: 60px;
 
   .container {
     width: 57%;
@@ -293,6 +294,41 @@ header {
       padding: 5px 0;
       font-size: 0.7rem;
       color: #486583;
+    }
+  }
+}
+
+// gray bar
+.grey_bar {
+  border-top: 1px solid #bdbdbd;
+  min-height: 50px;
+  background-color: #f7f6f1;
+  padding: 20px 0;
+
+  .grey_container {
+    min-height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 70%;
+
+    .buy_info {
+      display: flex;
+      align-items: center;
+
+      img {
+        height: 40px;
+        width: 40px;
+        object-fit: contain;
+        margin-right: 10px;
+        filter: invert(49%) sepia(8%) saturate(706%) hue-rotate(169deg) brightness(89%) contrast(87%);
+      }
+
+      a {
+        color: #697581;
+        font-size: 0.7rem;
+        text-decoration: none;
+      }
     }
   }
 }

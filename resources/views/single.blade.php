@@ -96,5 +96,42 @@
         </div>
       </div>
     </section>
+
+    <section>
+      <div class="grey_bar">
+        <div class="container grey_container">
+          <div class="buy_info">
+            <img src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png')}}">
+            <a href="#">
+              DIGITAL COMICS
+            </a>
+          </div>
+          <div class="buy_info">
+            <img src="{{ Vite::asset('resources/img/buy-comics-merchandise.png')}}">
+            <a href="#">
+              DC MERCHANDISE
+            </a>
+          </div>
+          <div class="buy_info">
+            <img src="{{ Vite::asset('resources/img/buy-comics-subscriptions.png')}}">
+            <a href="#">
+              SUBCRIPTION
+            </a>
+          </div>
+          <div class="buy_info">
+            <img src="{{ Vite::asset('resources/img/buy-comics-shop-locator.png')}}">
+            <a href="#">
+              COMIC SHOP LOCATOR
+            </a>
+          </div>
+          <div class="buy_info">
+            <img src="{{ Vite::asset('resources/img/buy-dc-power-visa.svg')}}">
+            <a href="#">
+              DC POWER VISA
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 @endsection
