@@ -3,7 +3,7 @@
 header {
   background-color: #fff;
 
-  .container {
+  .my_wrap {
     height: 90px;
 
     img {
@@ -32,6 +32,97 @@ header {
       width: 100%;
       object-fit: cover;
       object-position: top;
+    }
+  }
+}
+
+// main
+section {
+  background-color: #22272E;
+  padding-bottom: 20px;
+
+  .my_container {
+    padding-top: 30px;
+    width: 70%;
+    position: relative;
+
+    #series_tag {
+      position: absolute;
+      top: -20px;
+      left: 0;
+      background-color: #0C7CEC;
+      padding: 8px 20px;
+
+      h2 {
+        font-size: 1.1rem;
+        color: #fff;
+      }
+    }
+
+    .my_card {
+      width: calc(140px - 20px);
+      height: 120px;
+      margin: 20px 10px;
+
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+      }
+
+      h3 {
+        color: #fff;
+        font-size: 0.6rem;
+        margin-top: 10px;
+      }
+    }
+  }
+
+  #btn {
+    text-align: center;
+    width: 120px;
+    font-weight: 600;
+    font-size: 0.6rem;
+    padding: 8px 0;
+    margin: 50px auto 0;
+    background-color: #0C7CEC;
+
+    a {
+      color: #fff;
+    }
+  }
+}
+
+// blue bar
+.blue_bar {
+  min-height: 70px;
+  background-color: #0C7CEC;
+  padding: 20px 0;
+
+  .blue_container {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    .buy_info {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+
+      img {
+        height: 40px;
+        width: 40px;
+        object-fit: contain;
+        margin-right: 10px;
+      }
+
+      a {
+        color: #fff;
+        font-size: 0.7rem;
+        text-decoration: none;
+      }
     }
   }
 }

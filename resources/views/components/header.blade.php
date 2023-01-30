@@ -1,5 +1,5 @@
 <header>
-  <div class="container d-flex justify-content-center align-items-center">
+  <div class="container d-flex justify-content-center align-items-center my_wrap">
     <a href="#">
       <img src="{{ Vite::asset('resources/img/dc-logo.png')}}" alt="DC">
     </a>
