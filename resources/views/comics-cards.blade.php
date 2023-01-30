@@ -1,9 +1,9 @@
 @extends('layout.main-layout')
 
 @section('head')
-  <title>Comics cards</title>    
+  <title>Comics cards - page 1</title>    
 @endsection
 
 @section('content')
-  <h1>Hello</h1>
+  <h1><a href="single-comics"> Hello </a></h1>
 @endsection
