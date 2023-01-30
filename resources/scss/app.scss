@@ -37,7 +37,7 @@ header {
 }
 
 // main
-section {
+.my_section {
   background-color: #22272E;
   padding-bottom: 20px;
 
@@ -181,6 +181,45 @@ section {
         position: relative;
         top: -4rem;
         width: 100%;
+      }
+    }
+  }
+}
+
+// bottom footer
+.gray_bar {
+  height: 80px;
+  background-color: #3d4147;
+
+  .my_b_container {
+    height: inherit;
+    width: 65%;
+
+    button {
+      background-color: #3d4147;
+      padding: 0.3rem;
+      border: 2px solid #0C7CEC;
+
+      a {
+        color: #fff;
+        font-size: 0.7rem;
+        text-decoration: none;
+      }
+    }
+
+    .socials {
+      display: flex;
+      align-items: center;
+
+      h4 {
+        color: #0C7CEC;
+        margin-right: 0.9rem;
+        font-size: 1rem;
+      }
+
+      img {
+        height: 1.4rem;
+        margin: 0 0.4rem;
       }
     }
   }

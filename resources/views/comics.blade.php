@@ -6,7 +6,7 @@
 
 @section('content')
 <main>
-  <section>
+  <section class="my_section">
 
     <div class="container d-flex justify-content-center flex-wrap my_container">
       <div id="series_tag">

@@ -161,4 +161,37 @@
       </div>
     </div>
   </div>
+
+  <section>
+    <div class="gray_bar">
+      <div class="container d-flex align-items-center justify-content-between my_b_container">
+        <button>
+          <a href="#">
+            SIGN-UP NOW!
+          </a>
+        </button>
+  
+        <div class="socials">
+          <h4 class="mb-0">
+            FOLLOW US
+          </h4>
+          <a href="#">
+            <img src="{{ Vite::asset('resources/img/footer-facebook.png')}}">
+          </a>
+          <a href="#">
+            <img src="{{ Vite::asset('resources/img/footer-twitter.png')}}">
+          </a>
+          <a href="#">
+            <img src="{{ Vite::asset('resources/img/footer-youtube.png')}}">
+          </a>
+          <a href="#">
+            <img src="{{ Vite::asset('resources/img/footer-pinterest.png')}}">
+          </a>
+          <a href="#">
+            <img src="{{ Vite::asset('resources/img/footer-periscope.png')}}">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
 </footer>
